@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+ body {
+    background-size: cover;
+    background-image: url(../rubys_kids/assets/background.jpeg);
+    margin: auto;
+    background-color: #FFFFFF;
+  }
+main {
+    background-color: #FFFFFF;
+    width: 600px;
+    margin: auto;
+    height: 750px;
+}
+
+aside {
+    float: left;
+    width: 110px;
+    margin: auto;
+    background-color: #0CC20D;
+    text-align: center;
+}
+
+footer {
+    background-color: #3FC5F8;
+    margin: auto;
+    width: 600px;
+}
+
+#container ul {
+    display: inline-block;
+    width: 558px;
+    margin: auto;
+    font-size: x-large;
+    top: middle;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    word-spacing: 20px;
+}
+
+#container li {
+    width: 600px;
+    display: inline;
+    margin: auto;
+    height: 5px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav {
+    width: 600px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+div #container {
+    margin: auto;
+}
+
+header {
+    background-image: url(../rubys_kids/assets/travel_logo.jpg);
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0CC20D;
+}
+
+.submit_btn:hover {
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+nav a:hover {
+    background-color: #3FC5F8;
+}
+
+img {
+    float: right;
+}
